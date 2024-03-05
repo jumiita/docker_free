@@ -10,6 +10,8 @@
 7. en principio con esto ya tendrias symfony se te creara una carpeta "app" donde tendras la estructura de MVC de symfony.
 8. Luego para sacarle partido a symfony y programar como un loco lo que hacemos es  usar doctrine te dejo el enlace aquí [DOCUMENTACION DOCTRINE](https://symfony.com/doc/current/doctrine.html)
 9. Hay que configurar la base de datos en el archivo ``.env`` y hacer una serie de cosas.
+---
+#Para ver si esta funcionando hay que abrir el navegador en -> ``http://localhost:8084/`` (Importante esta en 8084 porque hemos puesto en el archivo docker-compose.yml en el contenedor de nginx el 8084:80, ya que el puerto de la izquierda de los dos puntos es el puerto que usas)
 
 # Posibles problemas que puedes tener: 
 ---
